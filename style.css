@@ -628,6 +628,7 @@ color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -643,7 +644,6 @@ z-index: 2;
 width: 1150px;
 right: 150px;
 height: 460px;
-
 
 }
 
@@ -679,6 +679,8 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top: -120px;
+border: none;
+    
 }
 
 /* bottom-swevices */
@@ -696,7 +698,7 @@ z-index: 2;
 width: 1150px;
 right: 150px;
 height: 460px;
-
+border: none;
 }
 
 .bottom-card p {
@@ -731,4 +733,31 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top: -120px;
+}
+
+/* trasfering-section */
+.transfer-img {
+position: relative;
+object-fit: cover;
+z-index: 2;
+}
+    
+.transfer-img img {
+    position: absolute;
+    width:290px;
+    height: 350px;
+    position: absolute;
+    bottom: -200px;
+    left: -250px;
+    
+}
+
+.transfer-info {
+    position: relative;
+    zindex: 2
+}
+.transfer-info p {
+    text-align: center;
+    margin-top: 200px;
+    margin-right: -100px
 }
